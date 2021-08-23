@@ -14,7 +14,7 @@ public @Data class Candidate implements Serializable {
 	@Column(nullable = false, updatable = false)
 	private Long id;
 	
-	private String name, email, jobTitle, phone, wage, imageUrl;
+	private String name, email, jobTitle, phone, wage, imageUrl, pdf, linkedin;
 	
 	@Column(nullable = false, updatable = false)
 	private String candidateCode;
